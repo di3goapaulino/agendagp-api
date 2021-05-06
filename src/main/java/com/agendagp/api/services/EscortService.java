@@ -30,6 +30,12 @@ public class EscortService {
         return repository.insert(escort);
     }
 
+    public Boolean ValidarEscort(Escort escort){
+
+
+        return true;
+    }
+
     public void delete (String id){
         findById(id);
         repository.deleteById(id);

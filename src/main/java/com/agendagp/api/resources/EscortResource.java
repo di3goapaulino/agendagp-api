@@ -25,7 +25,7 @@ public class EscortResource {
     @Autowired
     private EscortService service;
 
-    @CrossOrigin(origins = "http://localhost:8080")
+    
     @RequestMapping(method = RequestMethod.GET)
     public ResponseEntity<List<EscortDTO>>  findAll(){
     
